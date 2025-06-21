@@ -149,7 +149,7 @@ formatting and alignment:
 * This format must appear at the top of all .cpp, .h, .py, .js, etc., files.
 * Auto-generated files do *not* require this header format, although including it
   is recommended.
-* Use SPDX license identifiers shall be used in the `License:` section.
+* SPDX license identifiers shall be used in the `License:` section.
 * `<relative/path>` should be replaced by the repository or project root.
 
 ## Example

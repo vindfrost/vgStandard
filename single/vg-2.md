@@ -17,7 +17,7 @@ This document defines the format used for digital development signatures.
 
 ## Format specification
 
-Every digital developer signature shall be in this format:
+Every digital developer signature must be in this format:
 
 ### Format 1 (vg-2.f1)
 
@@ -62,6 +62,8 @@ Every digital developer signature shall be in this format:
 * The `<real_name>` field shall be replaced with the real name of the person.
 * Choose between markdown (formats 1 and 2) and plain text (formats 3 and 4)
   based on the medium's support.
+* Use standard Markdown headings (`# Heading`), without trailing hashes
+  (i.e., `# Heading #` is not allowed).
 
 ## Example
 
