@@ -1,5 +1,19 @@
 # vg-1 - File header format
 
+## Table of Contents
+
+* [Purpose](#purpose)
+* [Format specification](#format-specification)
+  * [Format 1](#format-1-vg-1f1)
+  * [Format 2](#format-2-vg-1f2)
+  * [Format 3](#format-3-vg-1f3)
+  * [Format 4](#format-4-vg-1f4)
+  * [Format 5](#format-5-vg-1f5)
+  * [Format 6](#format-6-vg-1f6)
+  * [Format 7](#format-7-vg-1f7)
+* [Notes](#notes)
+* [Example](#example)
+
 ## Purpose
 
 This document defines the required format for file header comments all source
@@ -135,7 +149,7 @@ formatting and alignment:
 * This format must appear at the top of all .cpp, .h, .py, .js, etc., files.
 * Auto-generated files do *not* require this header format, although including it
   is recommended.
-* Use SPDX license identifiers shall be used in the `License:` section.
+* SPDX license identifiers shall be used in the `License:` section.
 * `<relative/path>` should be replaced by the repository or project root.
 
 ## Example
