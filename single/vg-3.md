@@ -53,7 +53,8 @@ Content of requests:
 ## Notes
 
 * The signature must always be in the [vg-2](vg-2.md) format.
-* All fields are mandatory unless explicitly stated otherwise.
+* All fields are mandatory unless explicitly stated otherwise or there is
+  nothing to be filled in.
 * Ensure accurate `+xx` and `-xx` counts based on the diff.
 * Avoid nonstandard headings or stylistic deviations.
 * Use standard Markdown headings (`# Heading`), without trailing hashes
