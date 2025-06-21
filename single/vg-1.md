@@ -125,7 +125,7 @@ formatting and alignment:
 % ==============================================================================
 ```
 
-> For languages using `%` for comments
+> For languages using `%` for comments.
 
 ### Format 7 (vg-1.f7)
 
@@ -141,6 +141,8 @@ formatting and alignment:
    Copyright:   (c) <year> <author or organization>
   ==========================================================================="""
 ```
+
+> For languages using `"""` for comments.
 
 ## Notes
 
